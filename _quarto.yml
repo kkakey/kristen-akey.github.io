@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      # - href: about.qmd
+      #   text: About
+
+format:
+  html:
+    theme: yeti
+    css: www/css/style.css
+    toc: true
